@@ -74,3 +74,10 @@ function addEvents() {
         };
     });
 }
+
+function verifyNulls() {
+    items_db = items_db.filter((item) => item);
+    localStorage.setItem("items_db", JSON.stringify(items_db));
+}
+
+loadItems();
