@@ -2,3 +2,8 @@ Criando App de Anotações com JavaScript
 
 
 Link do Video https://www.youtube.com/watch?v=_Z1brxQGfS4
+
+
+Guardando anotacoes em Local Storage
+
+https://github.com/WilliamDosSantos/notes-app-javascript
