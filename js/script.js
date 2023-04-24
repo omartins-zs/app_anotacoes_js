@@ -18,3 +18,20 @@ const colors = [
 ];
 
 const randomColor = () => colors[Math.floor(Math.random() * colors.length)];
+
+function loadItems() {
+    content.innerHTML = "";
+    verifyNulls();
+
+    items_db.forEach((item, i) => {
+        addHTML(item, i);
+    });
+
+    addEvents();
+}
+
+btnNew.onclick = () => {
+    addHTML();
+
+    addEvents();
+};
