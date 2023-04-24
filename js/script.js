@@ -35,3 +35,15 @@ btnNew.onclick = () => {
 
     addEvents();
 };
+
+function addHTML(item) {
+    const div = document.createElement("div");
+
+    div.innerHTML = `<div class="item" style="background-color: ${item?.color || randomColor()
+        }">
+      <span class="remove">X</span>
+      <textarea>${item?.text || ""}</textarea>
+    </div>`;
+
+    content.appendChild(div);
+}
