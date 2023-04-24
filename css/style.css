@@ -41,7 +41,7 @@ body {
 
 textarea {
     padding: 5px;
-    padding-top: 5px;
+    padding-top: 14px;
     outline: none;
     resize: none;
     border: none;
@@ -67,6 +67,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .remove {
+    margin-top: 6px;
     position: absolute;
     right: 6px;
     cursor: pointer;
