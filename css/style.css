@@ -58,3 +58,16 @@ textarea::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: #4B4453;
 }
+
+.item {
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+
+.remove {
+    position: absolute;
+    right: 6px;
+    cursor: pointer;
+    color: #FFF;
+}
